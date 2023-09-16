@@ -1,0 +1,218 @@
+
+header {
+    background-color: #F1FFEB;
+    color: #25602A;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #25602A;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #25602A;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+.main{
+    background-color:#d2ecc7;
+}
+
+.imgBirds{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.imgBirds img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.infOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #25602A;
+}
+.infOne{
+    font-size: 3rem;
+}
+
+.imgLados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #25602A;
+}
+
+.imgLados img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.infoTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.infoTwo p{
+    color: #5F3513;
+    font-size: 3rem;
+}
+
+.infoDentro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoDentro p{
+
+    border:1px solid #5F3513;
+    border-radius: 20px;
+    background-color: #A08561;
+}
+
+.imgMedio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgMedio img{
+    width: 20rem;
+    height: 20rem;
+}
+
+/*SEGUNDA PAGINA*/
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.titulo .one{
+    font-size: 5rem;
+}
+
+.titulo .two{
+    font-size: 3rem;
+}
+
+.contenedorOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d2ecc7;
+    border: 1px solid #25602A;
+    border-radius: 20px;
+}
+
+.contenedorOne p{
+    font-weight: 500;
+    font-size: 5rem;
+    color: black;
+}
+
+.ftos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ftos img{
+    border-radius: 100%;
+    width: 20rem;
+    height: 20rem;
+}
+
+/*TERCERA PAGINA*/
+
+.how{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.how .Ubi{
+    font-size: 5rem;
+}
+
+.how .o{
+    font-size: 2rem;
+}
+
+/*CUARTA PAGINA*/
+
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.price p{
+    font-size: 5rem;
+}
+
+
+
+
+
+footer {
+    border-top:1px solid #25602A;
+    background-color: #F1FFEB;
+    color: #25602A;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para los enlaces en el pie de página */
+footer a {
+    text-decoration: none;
+    color: #25602A;
+}
+
+/* Cambiar el color del enlace al pasar el mouse sobre él */
+footer a:hover {
+    color: #fff;
+}
+
+
